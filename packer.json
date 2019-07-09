@@ -39,14 +39,14 @@
         },
         {
             "type": "shell",
-            "script": "scripts/bootstrap.sh"
+            "script": "bootstrap.sh"
         },
         {
             "type": "ansible",
-            "playbook_file": "ansible/setup-server.yml"
+            "playbook_file": "setup-server.yml"
         },
         {
             "type": "ansible",
-            "playbook_file": "ansible/deploy_app.yml"
+            "playbook_file": "deploy_app.yml"
         }]
 }
